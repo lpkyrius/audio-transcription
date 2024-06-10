@@ -44,19 +44,20 @@ This project demonstrates how to transcribe an audio file (in `.m4a` format - us
 
 ## Usage
 
-1.	In the project directory, create a folder audios
-2.	Place your .m4a audio file inside audios folder
-3.  Rename your file to original.m4a
-4.  Run the transcription script:
+1.	Place your .m4a audio file inside audios folder
+2.  Rename your file to original.m4a
+3.  Run the transcription script:
 `python transcript-audio.py`
 4.	Check the console output for the transcribed text.
 
+_There is an audio example inside audios folder._
+
 ## Troubleshooting
 
-•	FileNotFoundError: [Errno 2] No such file or directory: ‘ffprobe’:
-Ensure that ffmpeg and ffprobe are installed and correctly added to your system’s PATH.
-	•	speech_recognition.exceptions.UnknownValueError:
-This error indicates that the API could not understand the audio. Ensure the audio is clear and free of significant background noise.
+1. FileNotFoundError: [Errno 2] No such file or directory: ‘ffprobe’:
+    Ensure that ffmpeg and ffprobe are installed and correctly added to your system’s PATH.
+2. speech_recognition.exceptions.UnknownValueError:
+    This error indicates that the API could not understand the audio. Ensure the audio is clear and free of significant background noise.
 
 ## Contributing
 
