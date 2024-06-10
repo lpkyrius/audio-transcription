@@ -48,7 +48,7 @@ This project demonstrates how to transcribe an audio file (in `.m4a` format - us
 2.  Rename your file to original.m4a
 3.  Run the transcription script:
 `python transcript-audio.py`
-4.	Check the console output for the transcribed text.
+4.	Check in the audio folder for the transcribed file text named as YYYYMMDDmmss.txt.
 
 
 ## Troubleshooting
