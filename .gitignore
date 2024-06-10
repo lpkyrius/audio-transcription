@@ -10,6 +10,10 @@ __localcode
 .env
 venv/
 
+audios/*.m4a
+audios/*.wav
+audios/*.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
