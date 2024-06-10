@@ -50,7 +50,6 @@ This project demonstrates how to transcribe an audio file (in `.m4a` format - us
 `python transcript-audio.py`
 4.	Check the console output for the transcribed text.
 
-_There is an audio example inside audios folder._
 
 ## Troubleshooting
 
